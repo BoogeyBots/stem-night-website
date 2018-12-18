@@ -69,30 +69,48 @@ body {
 	text-align: center;
 	width: 100%;
 	height: 100%;
-	background-color: rgb(252, 0, 126);
+	background-color: rgb(201, 4, 37);
 	border-radius: 5px;
 	padding: 7px;
 	margin: 0 10px;
 	transition: background-color 0.35s ease-out, color 0.35s ease-out;
+	box-shadow: 0 5px 15px rgba(255, 0, 0, 0.603);
 }
 
 .button:hover {
-	background-color: rgb(180, 0, 90);
+	background-color: #7D061A
 }
 
-/* a:link a:hover, a:active, a:visited {
-	color: rgb(255, 255, 255) !important;
-	text-decoration: none;
-} */
 .button a {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
 }
 
-.button a, .button a:link, .button a:hover, .button a:active, .button a:visited {
+.button a, .button a:link, .button a:hover, .button a:active, .button a:visited, .register a, .register a:link, .register a:hover, .register a:active, .register a:visited {
 	color: rgb(255, 255, 255) !important;
 	text-decoration: none;
+}
+
+.register .button {
+	font-size: 2em;
+	padding: 10px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	.register .button {
+		font-size: 1.15em;
+		padding: 10px 15px;
+	}
+}
+
+.bb-primary {
+	color: white;
+	background-color:  rgb(201, 4, 37);
+}
+
+.bb-primary:hover {
+	background-color: #7D061A
 }
 
 .row {
