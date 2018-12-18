@@ -2,9 +2,7 @@ body {
 	background-color: transparent !important;
 	background: url(../img/bg.jpg) repeat center center fixed;
 	background-size: cover;
-	/* height: 100%;
-	width: 100%;
-	overflow: hidden; */
+	font-family: 'Lato', sans-serif;
 }
 
 .cd-nugget-info {
@@ -48,19 +46,21 @@ body {
 
 .cd-timeline__date {
 	color: white !important;
-	font-size: 1.9em;
+	font-size: 1.7em;
 	font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
 	.cd-timeline__date {
 		color: black !important;
+		font-size: 1.3em;
 	}
 }
 
 @media only screen and (max-width: 1170px) {
 	.cd-timeline__date {
 		color: black !important;
+		font-size: 1.3em;
 	}
 }
 
@@ -73,7 +73,6 @@ body {
 	border-radius: 5px;
 	padding: 7px;
 	margin: 0 10px;
-	color: rgb(228, 228, 228);
 	transition: background-color 0.35s ease-out, color 0.35s ease-out;
 }
 
@@ -81,14 +80,19 @@ body {
 	background-color: rgb(180, 0, 90);
 }
 
-.button a:hover, .button a:active, .button a:visited {
-	color: rgb(255, 255, 255);
+/* a:link a:hover, a:active, a:visited {
+	color: rgb(255, 255, 255) !important;
 	text-decoration: none;
-}
+} */
 .button a {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
+}
+
+.button a, .button a:link, .button a:hover, .button a:active, .button a:visited {
+	color: rgb(255, 255, 255) !important;
+	text-decoration: none;
 }
 
 .row {
@@ -101,10 +105,10 @@ body {
 }
 
 .social h5{
-	font-size: 1.5em;
+	font-size: 1em;
 	color: white;
 }
 
 .social .button {
-	font-size: 1.75em;
+	font-size: 1.6em;
 }
