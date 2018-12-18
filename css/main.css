@@ -130,3 +130,12 @@ body {
 .social .button {
 	font-size: 1.6em;
 }
+
+.schedule-item:hover { 
+	cursor: pointer;
+}
+
+p.item-description {
+	font-size: 1.2em;
+	display: none;
+}

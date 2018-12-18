@@ -68,4 +68,11 @@
 		});
 		scrolling = false;
 	};
+
+	// =====================
+
+	$('.schedule-item').click(function () {
+		$(this).find('.item-description').slideToggle();
+		$(this).css('bb-primary');
+	});
 })();
