@@ -159,7 +159,8 @@ header h1 {
 }
 
 .cd-timeline__img.cd-timeline__img--movie {
-	background: #c03b44;
+	background: rgb(201, 4, 37);
+	box-shadow: 2px 5px 15px rgba(255, 0, 0, 0.603);
 }
 
 .cd-timeline__img.cd-timeline__img--location {

@@ -106,7 +106,7 @@ body {
 
 .bb-primary {
 	color: white;
-	background-color:  rgb(201, 4, 37);
+	background-color:rgb(201, 4, 37);
 }
 
 .bb-primary:hover {
@@ -138,4 +138,29 @@ body {
 p.item-description {
 	font-size: 1.2em;
 	display: none;
+}
+
+.question {
+	color: white;
+	font-size: 1.4em;
+}
+
+.answer {
+	color: rgb(224, 224, 224);
+	font-size: 1.17em;
+	margin-bottom: 40px;
+}
+
+.faq a {
+	color: white;
+	text-decoration: underline;
+	transition: font-size 0.2s ease-out;
+}
+
+.faq a:link, .faq a:hover, .faq a:active, .faq a:visited {
+	color: white;
+}
+
+.faq a:hover {
+	font-size: 1.2em;
 }
